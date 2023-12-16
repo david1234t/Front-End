@@ -1,9 +1,16 @@
 import React from 'react';
+import {CardCal} from './CardCal.jsx';
+
 
 export const Calendarios = () => {
     return (
         <div>
-            Las fechas y encuentros en las mejores pistas del mundo donde se enfrentaran a toda marcha los mejores corredores del globo.
+             <br></br>
+             <br></br>
+             <br></br>
+            <center>
+            <CardCal />
+            </center>
         </div>
     );
 };

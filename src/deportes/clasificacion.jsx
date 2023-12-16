@@ -1,9 +1,14 @@
 import React from 'react';
-
+import CardClas from './CardClas';
 export const Clasificacion = () => {
     return (
         <div>
-            Como se clasifica y que equipos lo lograron.
+             <br></br>
+             <br></br>
+             <br></br>
+            <center>
+                <CardClas/>
+            </center>
         </div>
     );
 };

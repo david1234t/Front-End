@@ -7,6 +7,8 @@ import {Calendarios} from './deportes/calendarios.jsx';
 import {Clasificacion} from './deportes/clasificacion.jsx';
 import {Momentos} from './deportes/momentos.jsx';
 import {Pilotos} from './deportes/pilotos.jsx';
+import {Autos} from './deportes/autos.jsx';
+import {Pistas} from './deportes/pistas.jsx';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
                                 <Route path='/clasificacion' element={<Clasificacion />} />
                                 <Route path='/momentos' element={<Momentos />} />
                                 <Route path='/pilotos' element={<Pilotos />} />
+                                <Route path='/autos' element={<Autos />} />
+                                <Route path='/pistas' element={<Pistas />} />
                                 </Route>
                       </Routes>
       </BrowserRouter> 
@@ -29,4 +33,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

@@ -10,12 +10,12 @@ export const NavBarComp = () => {
         <>
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand as={Link} to={'/formula1'}>FORMULA 1</Navbar.Brand>
+          <Navbar.Brand as={Link} to={'/formula1'}>PÁGINA DE FÓRMULA 1</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#pistas">PISTAS</Nav.Link>
-              <Nav.Link href="#autos">AUTOS</Nav.Link>
+              <Nav.Link as={Link} to={'/pistas'}>PISTAS</Nav.Link>
+              <Nav.Link as={Link} to={'/autos'}>AUTOS</Nav.Link>
               <NavDropdown title="NOTICIAS" id="collapsible-nav-dropdown">
                 <NavDropdown.Item as={Link} to={'/Carreras'}>Carreras</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to={'/Calendarios'}>

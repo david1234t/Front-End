@@ -1,11 +1,17 @@
 import React from 'react';
+import CardPil from './CardPil';
 
 export const Pilotos = () => {
     return (
-        <div>
-            Los mejores pilotos que ha tenido el deporte a lo largo de la historia. 
+        <div> 
+                        <br></br>
+                        <br></br>
+                        <br></br>
+            <center>
+                <CardPil/>
+            </center>
         </div>
-    );
+    ); 
 };
 
 export default Pilotos;

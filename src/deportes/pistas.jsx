@@ -1,17 +1,17 @@
 import React from 'react';
-import CardMom from './CardMom';
+import CardPis from './CardPis';
 
-export const Momentos = () => {
+export const Pistas = () => {
     return (
         <div>
                         <br></br>
                         <br></br>
-             <br></br>
+                        <br></br>
             <center>
-                <CardMom/>
+                <CardPis/>
             </center>
         </div>
     );
 };
 
-export default Momentos;
+export default Pistas;
